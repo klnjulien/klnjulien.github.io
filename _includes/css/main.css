@@ -482,3 +482,26 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+/* === JK Solutions – Listes avec coche === */
+
+.portfolio-list li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.portfolio-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #7f5cff; /* violet */
+  font-weight: bold;
+}
+
+/* === JK Solutions – Suppression des étoiles, ligne conservée === */
+
+hr.star-light::after,
+hr.star-primary::after {
+    content: none;
+}

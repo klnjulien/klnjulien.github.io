@@ -4,8 +4,10 @@ email: julien@jksolutions.fr
 url: www.jksolutions.fr
 description: "Dépannage, Installation et remise à niveau Informatique et Multimédia"
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+skills: "Dépannage - Installation - Remise à niveau<br>Informatique et Multimédia"
+meta_author: Julien
+siret: "982 842 171 00018"
+
 
 # Google webmaster tools
 google_verify:
@@ -42,7 +44,7 @@ social:
   - title: twitter
     url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
+    url: https://www.facebook.com/jksolutions
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket

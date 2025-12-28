@@ -1,47 +1,162 @@
 <!-- Portfolio Modals -->
-{% for post in site.posts %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
-  aria-hidden="true">
+
+<div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl">
-        </div>
-      </div>
+      <div class="lr"><div class="rl"></div></div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2>{{ post.title }}</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% if post.description %}
-            <p>{{ post.description }}</p>
-            {% endif %}
-            <ul class="list-inline item-details">
-              {% if post.client %}
-              <li>Client:
-                <strong>{{ post.client }}</strong>
-              </li>
-              {% endif %}
-              {% if post.project-date %}
-              <li>Date:
-                <strong>{{ post.project-date }}</strong>
-              </li>
-              {% endif %}
-              {% if post.category %}
-              <li>Service:
-                <strong>{{ post.category }}</strong>
-              </li>
-              {% endif %}
-            </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
-          </div>
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2>Réinstallation de Windows</h2>
+          <hr class="star-primary">
+          <img src="{{ site.baseurl }}/img/portfolio/reinstall.png" class="img-responsive img-centered" alt="">
+          <ul class="list-unstyled portfolio-list">
+            <li>Installation propre de Windows (dernière version)</li>
+            <li>Sauvegarde et restauration des données</li>
+            <li>Réinstallation des pilotes matériels</li>
+            <li>Installation des périphériques (imprimantes, etc.)</li>
+            <li>Mises à jour complètes du système</li>
+          </ul>
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            <i class="fa fa-times"></i> Fermer
+          </button>
         </div>
       </div>
     </div>
   </div>
 </div>
-{% endfor %}
+
+<div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr"><div class="rl"></div></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2>Mise à niveau PC</h2>
+          <hr class="star-primary">
+          <img src="{{ site.baseurl }}/img/portfolio/upgrade.png" class="img-responsive img-centered" alt="">
+          <ul class="list-unstyled portfolio-list">
+            <li>Optimisation des performances PC fixe et portable</li>
+            <li>Remplacement disque dur par SSD</li>
+            <li>Augmentation de la mémoire RAM</li>
+            <li>Changement ou ajout de carte graphique</li>
+            <li>Conseils personnalisés selon vos usages</li>
+          </ul>
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            <i class="fa fa-times"></i> Fermer
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr"><div class="rl"></div></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2>Réparation informatique</h2>
+          <hr class="star-primary">
+          <img src="{{ site.baseurl }}/img/portfolio/reparation.png" class="img-responsive img-centered" alt="">
+          <ul class="list-unstyled portfolio-list">
+            <li>Diagnostic complet des pannes</li>
+            <li>Réparation matérielle et logicielle</li>
+            <li>Résolution des problèmes de démarrage</li>
+            <li>Suppression de virus et malwares</li>
+            <li>Tests de fonctionnement après intervention</li>
+          </ul>
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            <i class="fa fa-times"></i> Fermer
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr"><div class="rl"></div></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2>Réseau & Internet</h2>
+          <hr class="star-primary">
+          <img src="{{ site.baseurl }}/img/portfolio/reseau.png" class="img-responsive img-centered" alt="">
+          <ul class="list-unstyled portfolio-list">
+            <li>Installation et configuration de box Internet</li>
+            <li>Mise en place de routeurs et Wi-Fi</li>
+            <li>Installation de serveurs NAS</li>
+            <li>Caméras et équipements réseau</li>
+            <li>Dépannage des connexions</li>
+          </ul>
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            <i class="fa fa-times"></i> Fermer
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal-5" tabindex="-1" role="dialog">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr"><div class="rl"></div></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2>Installation logiciels & périphériques</h2>
+          <hr class="star-primary">
+          <img src="{{ site.baseurl }}/img/portfolio/installation.png" class="img-responsive img-centered" alt="">
+          <ul class="list-unstyled portfolio-list">
+            <li>Installation de logiciels selon vos besoins</li>
+            <li>Configuration de suites bureautiques</li>
+            <li>Installation d’imprimantes et périphériques</li>
+            <li>Aide au choix du matériel et logiciels</li>
+          </ul>
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            <i class="fa fa-times"></i> Fermer
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal-6" tabindex="-1" role="dialog">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr"><div class="rl"></div></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2>Installation & dépannage multimédia</h2>
+          <hr class="star-primary">
+          <img src="{{ site.baseurl }}/img/portfolio/multimedia.png" class="img-responsive img-centered" alt="">
+          <ul class="list-unstyled portfolio-list">
+            <li>Installation et réglage de téléviseurs</li>
+            <li>Configuration de consoles et manettes</li>
+            <li>Connexion de lecteurs Blu-ray</li>
+            <li>Réglages image et son</li>
+            <li>Dépannage multimédia</li>
+          </ul>
+          <button type="button" class="btn btn-default" data-dismiss="modal">
+            <i class="fa fa-times"></i> Fermer
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

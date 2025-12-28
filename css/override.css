@@ -1,0 +1,107 @@
+/* =====================================================
+   JK SOLUTIONS – OVERRIDE FINAL PROPRE
+   ===================================================== */
+
+/* =====================================================
+   1. HEADER (sous la navbar)
+   ===================================================== */
+header {
+  background: linear-gradient(135deg, #14172a, #1f1340) !important;
+  color: #ffffff !important;
+}
+
+header .name,
+header .skills {
+  color: #ffffff !important;
+}
+
+/* =====================================================
+   2. PRESTATIONS (fond blanc, texte sombre)
+   ===================================================== */
+#portfolio {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+}
+
+#portfolio h2,
+#portfolio p,
+#portfolio .portfolio-text {
+  color: #333333 !important;
+}
+
+/* Overlay au hover (sans vert) */
+.portfolio-item .caption {
+  background: rgba(20, 23, 42, 0.85) !important;
+}
+
+/* =====================================================
+   3. À PROPOS (même fond que le header)
+   ===================================================== */
+section.success {
+  background: linear-gradient(135deg, #14172a, #1f1340) !important;
+  color: #ffffff !important;
+}
+
+section.success h2,
+section.success p {
+  color: #ffffff !important;
+}
+
+/* =====================================================
+   4. CONTACT (fond blanc, texte sombre)
+   ===================================================== */
+section#contact {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+}
+
+section#contact h2,
+section#contact label,
+section#contact p {
+  color: #333333 !important;
+}
+
+/* =====================================================
+   5. BOUTONS (violet, sans vert)
+   ===================================================== */
+.btn-success,
+.btn-primary {
+  background-color: #7f5cff !important;
+  border-color: #7f5cff !important;
+  color: #ffffff !important;
+}
+
+.btn-success:hover,
+.btn-primary:hover {
+  background-color: #3fa9f5 !important;
+  border-color: #3fa9f5 !important;
+}
+
+/* =====================================================
+   6. NETTOYAGE TOTAL DU VERT FLATLY
+   ===================================================== */
+.text-success,
+.bg-success,
+a.text-success {
+  color: #7f5cff !important;
+  background-color: transparent !important;
+}
+
+/* =====================================================
+   NAVBAR – Hover violet (remplace le vert Flatly)
+   ===================================================== */
+
+/* Liens navbar au survol */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #7f5cff !important;
+  background-color: transparent !important;
+}
+
+/* Lien actif (page courante) */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #7f5cff !important;
+  background-color: transparent !important;
+}
